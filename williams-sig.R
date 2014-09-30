@@ -99,7 +99,7 @@ sink()
 sink(MATRIX.FN)
 
 cat(paste("# -----------------------------------------------------------------------------------\n"))
-cat(paste("# William's Test Results \n"))
+cat(paste("# William's Test Results (",LP,")\n",sep=""))
 cat(paste("# -----------------------------------------------------------------------------------\n"))
 cat(paste("# Results read as follows:\n"))
 cat(paste("#    If the p-value in any given cell is lower than, for example, 0.05,              \n"))
