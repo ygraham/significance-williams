@@ -39,10 +39,10 @@ Requirements:
 
 Usage:
 
-./williams-sig.sh <language pair> <human scores filename> <metric scores filename> <directory to write results>
+bash williams-sig.sh <language pair> <human scores filename> <metric scores filename> <directory to write results>
 
 Example:
-./williams-sig.sh es-en example-data/mt-systems-scored-by-humans example-data/mt-systems-scored-by-metrics example-data
+bash williams-sig.sh es-en example-data/mt-systems-scored-by-humans example-data/mt-systems-scored-by-metrics example-data
 
 The above command produces two files, the first containing Pearson correlations of 
 each metric with human scores: 
@@ -66,13 +66,13 @@ The script can be run on data for more than two metrics. Example data are includ
 in this directory: "example-data-multi". The same command is used to call the script 
 on this example data for multiple metrics:
 
-./williams-sig.sh es-en example-data-multi/mt-systems-scored-by-humans example-data-multi/mt-systems-scored-by-metrics example-data-multi
+bash williams-sig.sh es-en example-data-multi/mt-systems-scored-by-humans example-data-multi/mt-systems-scored-by-metrics example-data-multi
 
 The input files can contain multiple language pairs data, as in example-data-multi. 
 For example, to run the script for "en-fr" language pair, simply specify that language 
 pair:
 
-./williams-sig.sh en-fr example-data-multi/mt-systems-scored-by-humans example-data-multi/mt-systems-scored-by-metrics example-data-multi
+bash williams-sig.sh en-fr example-data-multi/mt-systems-scored-by-humans example-data-multi/mt-systems-scored-by-metrics example-data-multi
 
 -----------------------------------------------------------------------------------
 
