@@ -1,3 +1,5 @@
+<pre>
+
 Instructions for William's Significance Test for Evaluation of Automatic MT Metrics 
 -----------------------------------------------------------------------------------
 
@@ -154,3 +156,4 @@ The signigicance test provided is described in detail in:
 
 -----------------------------------------------------------------------------------------------------------------------
 
+</pre>
