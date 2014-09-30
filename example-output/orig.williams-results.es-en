@@ -1,0 +1,12 @@
+# -----------------------------------------------------------------------------------
+# William's Test Results 
+# -----------------------------------------------------------------------------------
+# Results read as follows:
+#    If the p-value in any given cell is lower than, for example, 0.05,              
+#    the correlation with human scores of the metric named leftmost in that ROW 
+#                           is significantly higher than
+#    the correlation with human scores of the metric named at the top of that COLUMN.
+# -----------------------------------------------------------------------------------
+	AMBER	BLEU_4_closest_cased
+AMBER	-	0.0114079074943561
+BLEU_4_closest_cased	-	-
