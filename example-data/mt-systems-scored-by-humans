@@ -1,0 +1,13 @@
+METRIC	LP	TESTSET	SYSTEM	SCORE
+HUMAN	es-en	newstest2012	onlineA	61.9384
+HUMAN	es-en	newstest2012	onlineB	61.3861
+HUMAN	es-en	newstest2012	QCRI--primary	60.373
+HUMAN	es-en	newstest2012	uedin-wmt12	58.4963
+HUMAN	es-en	newstest2012	UPC	56.5355
+HUMAN	es-en	newstest2012	GTH-UPM	52.3248
+HUMAN	es-en	newstest2012	onlineD	51.1139
+HUMAN	es-en	newstest2012	jhu-hiero	47.8846
+HUMAN	es-en	newstest2012	onlineC	46.1035
+HUMAN	es-en	newstest2012	onlineF	42.2644
+HUMAN	es-en	newstest2012	onlineE	41.9155
+HUMAN	es-en	newstest2012	uk-dan-moses	18.7297
