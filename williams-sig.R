@@ -180,7 +180,7 @@ for( m1 in sort( unique( unlist( a$METRIC ) ) ) ){
   	  r12 = abs( cor( h.scrs,  m1.scrs, method="pearson")), 
  	  r13 = abs( cor( h.scrs,  m2.scrs, method="pearson")), 
 	  r23 = abs( cor( m1.scrs, m2.scrs, method="pearson")), 
- 	  pooled=T, twotailed=F)$p
+ 	  twotailed=F)$p
 
           cat( paste( p, sep="" ) )
       }else{
