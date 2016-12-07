@@ -33,6 +33,7 @@ MATRIX.FN <- paste(WRITE.DIR,"/williams-results.",LP,sep="")
 
 h <- read.table( HUMAN.FN, header=T, colClasses=c('factor','factor','factor','factor', 'numeric'))
 h <- h[ which( (h$METRIC=="HUMAN") & (h$LP==LP) ), ]
+N <- length(h$SCORE)
 
 if( length( h$LP ) < 2 ){
   cat(paste("Error, too few human scores found for systems\n"))
@@ -59,8 +60,6 @@ for(s in sort(unique(unlist( a$SYSTEM ))) ){
   }
   h.scrs <- c(h.scrs, sys$SCORE)
 }
-
-N <- length(h.scrs)
 
 sig.c <- 0
 
